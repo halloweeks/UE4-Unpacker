@@ -9,7 +9,7 @@ body:
     attributes:
       label: 🎮 Game Name
       description: Full name of the game
-      placeholder: e.g., PUBG MOBILE
+      placeholder: e.g., GAME XYZ
 
   - type: input
     id: game_version
