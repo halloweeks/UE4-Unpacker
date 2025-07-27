@@ -27,19 +27,13 @@ This tool supports decryption and extraction of `.pak` files from specific older
 
 ## 🔧 How to Use
 
-1. **Navigate to this folder**
-
-   ```bash
-   cd PUBG-MOBILE
-   ```
-
-2. **Build the unpacker**
+1. **Build the unpacker**
 
    ```bash
    cc pubg_mobile_unpack.c -o pubg_mobile_unpack -lz -lzstd -O2
    ```
 
-3. **Run it on a `.pak` file**
+2. **Run it on a `.pak` file**
 
    ```bash
    ./pubg_mobile_unpack path/to/file.pak
