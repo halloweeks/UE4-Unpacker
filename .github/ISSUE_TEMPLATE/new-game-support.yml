@@ -1,0 +1,63 @@
+name: 🆕 Request Game Support
+description: Suggest a new Unreal Engine 4 game to support in UE4-Unpacker
+labels: [game-request]
+title: "[Game Request] <Game Name>"
+
+body:
+  - type: input
+    id: game_name
+    attributes:
+      label: 🎮 Game Name
+      description: Full name of the game
+      placeholder: e.g., PUBG MOBILE
+
+  - type: input
+    id: game_version
+    attributes:
+      label: 📦 Game Version
+      description: The version of the game the `.pak` file comes from
+      placeholder: e.g., 1.0.0
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 📱 Platform
+      description: Which platform is this `.pak` file from?
+      options:
+        - Android
+        - iOS
+        - Windows
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 📄 Notes or Observations
+      description: Anything unusual about the file structure, encryption, or errors encountered
+
+  - type: input
+    id: aes_key
+    attributes:
+      label: 🔐 AES Key (if known)
+      description: Only include if publicly shareable or reverse-engineered
+
+  - type: textarea
+    id: sample_file
+    attributes:
+      label: 🗃️ Sample `.pak` File
+      description: Provide a download link (Google Drive, MEGA, etc.) to a sample `.pak` file if allowed
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: ✅ Agreement
+      description: Please confirm the following before submitting
+      options:
+        - label: I confirm this `.pak` file is from a UE4 game
+          required: true
+        - label: I am not submitting copyrighted content
+          required: true
+        - label: I understand that support is not guaranteed
+          required: true
