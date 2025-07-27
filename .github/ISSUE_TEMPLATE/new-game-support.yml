@@ -47,7 +47,7 @@ body:
     id: sample_file
     attributes:
       label: 🗃️ Sample `.pak` File
-      description: Provide a download link (Google Drive, MEGA, etc.) to a sample `.pak` file if allowed
+      description: Provide a download link (Google Drive, MEGA, etc.) to a sample `.pak` file if pak is small
 
   - type: checkboxes
     id: consent
