@@ -5,7 +5,6 @@ Multi-game `.pak` file unpacker for Unreal Engine 4 titles. Supports decryption,
 ## 🕹️ Supported Games
 
 - ✅ PUBG MOBILE
-- 🚧 Genshin Impact
 - 📝 Add yours via [Issues](https://github.com/halloweeks/UE4-Unpacker/issues)
 
 ## 📦 How to Use
