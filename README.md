@@ -24,7 +24,7 @@ If a game uses encrypted `.pak` files, you must provide the AES key.
 Open an [Issue](https://github.com/halloweeks/UE4-Unpacker/issues) and include:
 
 - Game name
-- `.pak` sample (if allowed)
+- `.pak` sample (if small)
 - AES key (if known)
 - Target platform/version
 
