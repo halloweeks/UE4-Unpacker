@@ -57,7 +57,5 @@ body:
       options:
         - label: I confirm this `.pak` file is from a UE4 game
           required: true
-        - label: I am not submitting copyrighted content
-          required: true
         - label: I understand that support is not guaranteed
           required: true
